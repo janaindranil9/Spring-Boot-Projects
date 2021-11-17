@@ -1,0 +1,17 @@
+server.port=8080
+spring.h2.console.enabled=true
+spring.datasource.platform=h2
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
+# Hibernate Jpa properties
+logging.level.org.hibernate.sql=DEBUG
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.properties.hibernate.jdbc.lob.no_contextual_creation=true
+
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
